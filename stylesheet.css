@@ -1,0 +1,75 @@
+/* SIDLAYOUT GENERELL */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+/*HEADER*/
+header {padding-top: 1em; padding-bottom: 1.5em; background: #ffffff; width: 100%; 
+color: #444948; font-family: verdana, sans-serif; text-align: center; font-size: 2em;}
+header a:link{color: #444948; text-decoration: none;}
+header a:visited {color: #444948;}
+
+/*MENYN*/
+nav {background: #ffffff; width: 100%; color: #444948;}
+nav ul {padding: 0; margin: 0em;  font: 70% verdana, sans-serif;}
+nav li {display: inline; list-style: none;}
+nav ul a{margin-left: 1em; color: #ffffff;}
+nav a:link{color: #444948;}
+nav a:visited {color: #444948;}
+nav a:hover{color: #1F6B75;}
+nav a#current{color: #1F6B75;}
+
+.page
+ {	
+   font-family:arial, verdana, sans-serif;
+   width:70em;
+   height: 40em;
+   padding:1em;
+   margin:0 auto;
+   background: #ffffff;
+}
+
+p.error {
+    color:red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th, td {
+
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+.kolumn1 {float: left; width: 70em; padding: 1em 0 0 1em; line-height: 1em;}
+.kolumn2 {float: left; width: 70em; padding: 1em 0 0 1em; line-height: 2em;}
+.kolumn3 {float: left; width: 70em; padding: 1em 0 0 1em; line-height: 3em;}
+.kolumn4 {float: left; width: 70em; padding: 1em 0 0 1em; line-height: 4em;}
+
+footer {    
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+}
